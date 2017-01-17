@@ -2,7 +2,7 @@
 
 # Getting Started
 
-- To get more comfortable using 3D Slicer have a look at our tutorials on basic 3D Slicer usage and annotation techniques (https://www.youtube.com/playlist?list=PLor6_v5dt2SjdX-jds-OshNKHhehJOmov).
+- To get more comfortable using 3D Slicer have a look at our tutorials on basic 3D Slicer usage and annotation techniques on [YouTube](https://www.youtube.com/playlist?list=PLor6_v5dt2SjdX-jds-OshNKHhehJOmov).
 - To use the Annotator tool a custom command will have been provided to you to start the tool. A full tutorial is available on [YouTube](https://www.youtube.com/watch?v=Euu2pQ0Ecjk)
 
 # Annotation Tool
