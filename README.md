@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# LungStage Annotator
+This tool is designed to facilitate the annotation of PETCT data. The tool is based on 3D Slicer and streamlines much of the steps to make manual segmentation much quicker and more consistent.
 
-You can use the [editor on GitHub](https://github.com/4Quant/LungStageAnnotater/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A video demonstrating the tool and how it works is [available](LungStageAnnotator)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/4Quant/LungStageAnnotater/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Standard Annotation
+The standard annotation tools for 3D Slicer are all public and open source. A quick tutorial for PETCT is also [available](https://www.youtube.com/playlist?list=PLor6_v5dt2SjdX-jds-OshNKHhehJOmov)

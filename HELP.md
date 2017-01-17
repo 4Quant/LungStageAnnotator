@@ -1,3 +1,4 @@
+![4Quant](http://4quant.com/assets/4Quant.png)
 
 # Getting Started
 
