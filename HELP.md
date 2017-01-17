@@ -1,4 +1,4 @@
-![4Quant](http://4quant.com/assets/4Quant.png)
+![4Quant](http://4quant.com/LungStageAnnotator/imgs/logo.png)
 
 # Getting Started
 
