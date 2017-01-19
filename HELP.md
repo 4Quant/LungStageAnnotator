@@ -17,9 +17,10 @@ This panel shows the different scans which are acceptable as part of the PET/CT 
 # Slice Viewer
 
 - Once a patient has been loaded change to the 'Slice Viewer' panel browse the images.
-- Mouse Operation 
- - by clicking and dragging for brightness / contrast
- - shift click + drag to move the patient around
+- Mouse Operation  
+ - holding left mouse and moving vertical and horizontal will change window and level
+ - holding down the shift key while moving the mouse in slice views will scroll all slice viewers to that RAS coordinate
+ - holding down the shift key and holding down the left button while moving will pan the slice view (or views, if linked)
  - control click + drag to zoom in and out
 - See annotating for information about making annotations
 - More mouse and keyboard guides are available [here](https://www.slicer.org/wiki/Documentation/4.6/SlicerApplication/MouseandKeyboardShortcuts)
