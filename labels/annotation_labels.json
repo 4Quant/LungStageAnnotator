@@ -1,1 +1,216 @@
-{"tumor_labels": [{"Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus ", "Label": "T1"}, {"Comment": "involves main bronchus and is more than 2 cm distal to the carina; ", "Label": "T2_main_bronchus"}, {"Comment": "invades visceral pleura; ", "Label": "T2_visc_pleura"}, {"Comment": "associated with atelectasis or obstructive pneumonitis that extends to the hilar region without involvement of the entire lung", "Label": "T2_obstr_lobe"}, {"Comment": "direct invasion of the chest wall (including the superior sulcus), diaphragm, phrenic nerve, mediastinal pleura, or parietal pericardium", "Label": "T3_Inv_chest_wall"}, {"Comment": "involvement of the main bronchus <2 cm distal to the carina", "Label": "T3_main_bronchus"}, {"Comment": "associated atelectasis or obstructive pneumonitis of the entire lung; ", "Label": "T3_obstr_lung"}, {"Comment": "Tumor nodule within the same lobe as that of the primary tumor", "Label": "T3_nodule_same_lobe"}, {"Comment": "invasion of the mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina ", "Label": "T4_inv_mediastinum"}, {"Comment": "Separate tumor nodule within an ipsilateral lobe", "Label": "T4_nodule_diff_lobe"}, {"Comment": "Other primary tumor", "Label": "T_other"}], "mets_labels": [{"Comment": "Separate tumor nodule within a contralateral lobe ", "Label": "M1a_contralat"}, {"Comment": "Tumor with pleural nodules", "Label": "M1a_pleura"}, {"Comment": "Adrenal", "Label": "M1b_adrenal"}, {"Comment": "Brain", "Label": "M1b_brain"}, {"Comment": "Liver", "Label": "M1b_liver"}, {"Comment": "Bone", "Label": "M1b_bone"}, {"Comment": "Extrathoracic lymph node", "Label": "M1b_node"}, {"Comment": "Other", "Label": "M1b_other"}], "node_labels": [{"Comment": "Ipsilateral hilar node", "Label": "N1_10-11i"}, {"Comment": "Ipsilateral peripheral node", "Label": "N1_12-15i "}, {"Comment": "Ipsilateral superior mediastinal node S2", "Label": "N2_2i"}, {"Comment": "Superior mediastinal node S3", "Label": "N2_3"}, {"Comment": "Ipsilateral superior mediastinal node S4", "Label": "N2_4i"}, {"Comment": "Subaortic node counted as ipsilateral (left sided primary tumor)", "Label": "N2_5i"}, {"Comment": "Para-aortic node", "Label": "N2_6"}, {"Comment": "Subcarinal node", "Label": "N2_7 "}, {"Comment": "Ipsilateral inferior mediastinal node S8", "Label": "N2_8i"}, {"Comment": "Ipsilateral inferior mediastinal node S9", "Label": "N2_9"}, {"Comment": "Scalene or supraclavicular lymph nodes", "Label": "N3_1 "}, {"Comment": "Contralateral superior mediastinal node S2", "Label": "N3_2c"}, {"Comment": "Contralateral superior mediastinal node S4", "Label": "N3_4c"}, {"Comment": "Subaortic node counted as contralateral (right sided primary tumor)", "Label": "N3_5c"}, {"Comment": "Contralateral inferior mediastinal node S8", "Label": "N3_8c"}, {"Comment": "Contralateral inferior mediastinal node S9", "Label": "N3_9c"}, {"Comment": "Contralateral hilar node", "Label": "N3_10-11c"}, {"Comment": "Contralateral peripheral node", "Label": "N3_12-15c"}, {"Comment": "Lymph node involvement from another tumor", "Label": "N_other"}]}
+{
+    "tumor_labels": [
+        {
+            "Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus ",
+            "Label": "T1"
+        },
+        {
+            "Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus ",
+            "Label": "T2"
+        },
+        {
+            "Comment": "involves main bronchus and is more than 2 cm distal to the carina; ",
+            "Label": "T2_main_bronchus"
+        },
+        {
+            "Comment": "invades visceral pleura; ",
+            "Label": "T2_visc_pleura"
+        },
+        {
+            "Comment": "associated with atelectasis or obstructive pneumonitis that extends to the hilar region without involvement of the entire lung",
+            "Label": "T2_obstr_lobe"
+        },
+        {
+            "Comment": "direct invasion of the chest wall (including the superior sulcus), diaphragm, phrenic nerve, mediastinal pleura, or parietal pericardium",
+            "Label": "T3_Inv_chest_wall"
+        },
+        {
+            "Comment": "involvement of the main bronchus <2 cm distal to the carina",
+            "Label": "T3_main_bronchus"
+        },
+        {
+            "Comment": "associated atelectasis or obstructive pneumonitis of the entire lung; ",
+            "Label": "T3_obstr_lung"
+        },
+        {
+            "Comment": "Tumor nodule within the same lobe as that of the primary tumor",
+            "Label": "T3_nodule_same_lobe"
+        },
+        {
+            "Comment": "invasion of the mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina ",
+            "Label": "T4_inv_mediastinum"
+        },
+        {
+            "Comment": "Separate tumor nodule within an ipsilateral lobe",
+            "Label": "T4_nodule_diff_lobe"
+        },
+        {
+            "Comment": "Other primary tumor",
+            "Label": "T_other"
+        },
+        {
+            "Comment": "Benign tumor",
+            "Label": "T_benign"
+        }
+    ],
+    "stage_labels": {
+        "msg": "Based on the segmentations and the report please make the most accurate staging possible",
+        "class": "stage",
+        "tumorList": [
+            "Tx: Primary tumor may not be assessed or detected with sputum or bronchial washings and is not visualized at imaging",
+            "T0: No evidence of primary tumor",
+            "Tis: Carcinoma in situ",
+            "T1: Tumor <=3 cm across its greatest dimension, surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus",
+            "T1a: Tumor <=2 cm across its greatest dimension",
+            "T1b: Tumor >2 cm and <=3 cm across its greatest dimension",
+            "T2: Tumor >3 cm and <=7 cm or with any of the following features: involves main bronchus and is more than 2 cm distal to the carina; invades visceral pleura; associated with atelectasis or obstructive pneumonitis that extends to the hilar region without involvement of the entire lung",
+            "T2a: Tumor >3 cm and <=5 cm across its greatest dimension",
+            "T2b: Tumor >5 cm and <=7 cm across its greatest dimension",
+            "T3: Tumor >7 cm or any of the following features: direct invasion of the chest wall (including the superior sulcus), diaphragm, phrenic nerve, mediastinal pleura, or parietal pericardium; involvement of the main bronchus <2 cm distal to the carina (without involvement of the carina); associated atelectasis or obstructive pneumonitis of the entire lung; or a tumor nodule within the same lobe as that of the primary tumor",
+            "T4: Tumor of any size with invasion of the mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina or a separate tumor nodule within an ipsilateral lobe"
+        ],
+        "metsList": [
+            "Nx: Regional lymph nodes cannot be assessed",
+            "N0: No regional lymph node metastasis",
+            "N1: Metastasis in ipsilateral peribronchial or ipsilateral hilar and intrapulmonary lymph nodes, including direct extension",
+            "N2: Metastasis in ipsilateral mediastinal or subcarinal lymph nodes",
+            "N3: Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral, contralateral scalene, or supraclavicular lymph nodes"
+        ],
+        "nodeList": [
+            "Mx: Distant metastasis cannot be assessed",
+            "M0: No distant metastasis",
+            "M1: Distant metastasis",
+            "M1a: Separate tumor nodule within a contralateral lobe or tumor with pleural nodules or malignant pleural (or pericardial) effusion",
+            "M1b: Distant metastasis"
+        ],
+        "commentsLineEdit": "",
+        "sarcoidosisCheck": [
+            false,
+            "Findings could be biased by sarcoidosis"
+        ],
+        "inflammationCheck": [
+            false,
+            "Pneumonia and reactive lyphm nodes"
+        ],
+        "Other_Primary_TumorCheck": [
+            false,
+            "Other primary tumor / cancer present"
+        ]
+    },
+    "node_labels": [
+        {
+            "Comment": "Ipsilateral hilar node",
+            "Label": "N1_10-11i"
+        },
+        {
+            "Comment": "Ipsilateral peripheral node",
+            "Label": "N1_12-15i "
+        },
+        {
+            "Comment": "Ipsilateral superior mediastinal node S2",
+            "Label": "N2_2i"
+        },
+        {
+            "Comment": "Superior mediastinal node S3",
+            "Label": "N2_3"
+        },
+        {
+            "Comment": "Ipsilateral superior mediastinal node S4",
+            "Label": "N2_4i"
+        },
+        {
+            "Comment": "Subaortic node counted as ipsilateral (left sided primary tumor)",
+            "Label": "N2_5i"
+        },
+        {
+            "Comment": "Para-aortic node",
+            "Label": "N2_6"
+        },
+        {
+            "Comment": "Subcarinal node",
+            "Label": "N2_7 "
+        },
+        {
+            "Comment": "Ipsilateral inferior mediastinal node S8",
+            "Label": "N2_8i"
+        },
+        {
+            "Comment": "Ipsilateral inferior mediastinal node S9",
+            "Label": "N2_9"
+        },
+        {
+            "Comment": "Scalene or supraclavicular lymph nodes",
+            "Label": "N3_1 "
+        },
+        {
+            "Comment": "Contralateral superior mediastinal node S2",
+            "Label": "N3_2c"
+        },
+        {
+            "Comment": "Contralateral superior mediastinal node S4",
+            "Label": "N3_4c"
+        },
+        {
+            "Comment": "Subaortic node counted as contralateral (right sided primary tumor)",
+            "Label": "N3_5c"
+        },
+        {
+            "Comment": "Contralateral inferior mediastinal node S8",
+            "Label": "N3_8c"
+        },
+        {
+            "Comment": "Contralateral inferior mediastinal node S9",
+            "Label": "N3_9c"
+        },
+        {
+            "Comment": "Contralateral hilar node",
+            "Label": "N3_10-11c"
+        },
+        {
+            "Comment": "Contralateral peripheral node",
+            "Label": "N3_12-15c"
+        },
+        {
+            "Comment": "Lymph node involvement from another tumor",
+            "Label": "N_other"
+        },
+        {
+            "Comment": "lymph nodes that are active but benign",
+            "Label": "N_inflammation"
+        }
+    ],
+    "mets_labels": [
+        {
+            "Comment": "Separate tumor nodule within a contralateral lobe ",
+            "Label": "M1a_contralat"
+        },
+        {
+            "Comment": "Tumor with pleural nodules",
+            "Label": "M1a_pleura"
+        },
+        {
+            "Comment": "Adrenal",
+            "Label": "M1b_adrenal"
+        },
+        {
+            "Comment": "Brain",
+            "Label": "M1b_brain"
+        },
+        {
+            "Comment": "Liver",
+            "Label": "M1b_liver"
+        },
+        {
+            "Comment": "Bone",
+            "Label": "M1b_bone"
+        },
+        {
+            "Comment": "Extrathoracic lymph node",
+            "Label": "M1b_node"
+        },
+        {
+            "Comment": "Other",
+            "Label": "M1b_other"
+        }
+    ]
+}
