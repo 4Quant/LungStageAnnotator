@@ -1,56 +1,138 @@
 {
+    "node_labels": [
+        {
+            "Label": "N1_10-11i",
+            "Comment": "Ipsilateral hilar node"
+        },
+        {
+            "Label": "N1_12-15i ",
+            "Comment": "Ipsilateral peripheral node"
+        },
+        {
+            "Label": "N2_2i",
+            "Comment": "Ipsilateral superior mediastinal node S2"
+        },
+        {
+            "Label": "N2_3",
+            "Comment": "Superior mediastinal node S3"
+        },
+        {
+            "Label": "N2_4i",
+            "Comment": "Ipsilateral superior mediastinal node S4"
+        },
+        {
+            "Label": "N2_5i",
+            "Comment": "Subaortic node counted as ipsilateral (left sided primary tumor)"
+        },
+        {
+            "Label": "N2_6",
+            "Comment": "Para-aortic node"
+        },
+        {
+            "Label": "N2_7 ",
+            "Comment": "Subcarinal node"
+        },
+        {
+            "Label": "N2_8i",
+            "Comment": "Ipsilateral inferior mediastinal node S8"
+        },
+        {
+            "Label": "N2_9",
+            "Comment": "Ipsilateral inferior mediastinal node S9"
+        },
+        {
+            "Label": "N3_1 ",
+            "Comment": "Scalene or supraclavicular lymph nodes"
+        },
+        {
+            "Label": "N3_2c",
+            "Comment": "Contralateral superior mediastinal node S2"
+        },
+        {
+            "Label": "N3_4c",
+            "Comment": "Contralateral superior mediastinal node S4"
+        },
+        {
+            "Label": "N3_5c",
+            "Comment": "Subaortic node counted as contralateral (right sided primary tumor)"
+        },
+        {
+            "Label": "N3_8c",
+            "Comment": "Contralateral inferior mediastinal node S8"
+        },
+        {
+            "Label": "N3_9c",
+            "Comment": "Contralateral inferior mediastinal node S9"
+        },
+        {
+            "Label": "N3_10-11c",
+            "Comment": "Contralateral hilar node"
+        },
+        {
+            "Label": "N3_12-15c",
+            "Comment": "Contralateral peripheral node"
+        },
+        {
+            "Label": "N_other",
+            "Comment": "Lymph node involvement from another tumor"
+        },
+        {
+            "Label": "N_inflammation",
+            "Comment": "lymph nodes that are active but benign"
+        }
+    ],
     "tumor_labels": [
         {
-            "Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus ",
-            "Label": "T1"
+            "Label": "T1",
+            "Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus "
         },
         {
-            "Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus ",
-            "Label": "T2"
+            "Label": "T2",
+            "Comment": "Tumor surrounded by lung or visceral pleura, without invasion, and more proximal than the lobar bronchus "
         },
         {
-            "Comment": "involves main bronchus and is more than 2 cm distal to the carina; ",
-            "Label": "T2_main_bronchus"
+            "Label": "T2_main_bronchus",
+            "Comment": "involves main bronchus and is more than 2 cm distal to the carina; "
         },
         {
-            "Comment": "invades visceral pleura; ",
-            "Label": "T2_visc_pleura"
+            "Label": "T2_visc_pleura",
+            "Comment": "invades visceral pleura; "
         },
         {
-            "Comment": "associated with atelectasis or obstructive pneumonitis that extends to the hilar region without involvement of the entire lung",
-            "Label": "T2_obstr_lobe"
+            "Label": "T2_obstr_lobe",
+            "Comment": "associated with atelectasis or obstructive pneumonitis that extends to the hilar region without involvement of the entire lung"
         },
         {
-            "Comment": "direct invasion of the chest wall (including the superior sulcus), diaphragm, phrenic nerve, mediastinal pleura, or parietal pericardium",
-            "Label": "T3_Inv_chest_wall"
+            "Label": "T3_Inv_chest_wall",
+            "Comment": "direct invasion of the chest wall (including the superior sulcus), diaphragm, phrenic nerve, mediastinal pleura, or parietal pericardium"
         },
         {
-            "Comment": "involvement of the main bronchus <2 cm distal to the carina",
-            "Label": "T3_main_bronchus"
+            "Label": "T3_main_bronchus",
+            "Comment": "involvement of the main bronchus <2 cm distal to the carina"
         },
         {
-            "Comment": "associated atelectasis or obstructive pneumonitis of the entire lung; ",
-            "Label": "T3_obstr_lung"
+            "Label": "T3_obstr_lung",
+            "Comment": "associated atelectasis or obstructive pneumonitis of the entire lung; "
         },
         {
-            "Comment": "Tumor nodule within the same lobe as that of the primary tumor",
-            "Label": "T3_nodule_same_lobe"
+            "Label": "T3_nodule_same_lobe",
+            "Comment": "Tumor nodule within the same lobe as that of the primary tumor"
         },
         {
-            "Comment": "invasion of the mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina ",
-            "Label": "T4_inv_mediastinum"
+            "Label": "T4_inv_mediastinum",
+            "Comment": "invasion of the mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina "
         },
         {
-            "Comment": "Separate tumor nodule within an ipsilateral lobe",
-            "Label": "T4_nodule_diff_lobe"
+            "Label": "T4_nodule_diff_lobe",
+            "Comment": "Separate tumor nodule within an ipsilateral lobe"
         },
         {
-            "Comment": "Other primary tumor",
-            "Label": "T_other"
+            "Label": "T_other",
+            "Comment": "Other primary tumor"
         },
         {
-            "Comment": "Benign tumor",
-            "Label": "T_benign"
+            "Label": "T_benign",
+            "Comment": "Benign tumor"
         }
     ],
     "stage_labels": {
@@ -97,120 +179,38 @@
             "Other primary tumor / cancer present"
         ]
     },
-    "node_labels": [
-        {
-            "Comment": "Ipsilateral hilar node",
-            "Label": "N1_10-11i"
-        },
-        {
-            "Comment": "Ipsilateral peripheral node",
-            "Label": "N1_12-15i "
-        },
-        {
-            "Comment": "Ipsilateral superior mediastinal node S2",
-            "Label": "N2_2i"
-        },
-        {
-            "Comment": "Superior mediastinal node S3",
-            "Label": "N2_3"
-        },
-        {
-            "Comment": "Ipsilateral superior mediastinal node S4",
-            "Label": "N2_4i"
-        },
-        {
-            "Comment": "Subaortic node counted as ipsilateral (left sided primary tumor)",
-            "Label": "N2_5i"
-        },
-        {
-            "Comment": "Para-aortic node",
-            "Label": "N2_6"
-        },
-        {
-            "Comment": "Subcarinal node",
-            "Label": "N2_7 "
-        },
-        {
-            "Comment": "Ipsilateral inferior mediastinal node S8",
-            "Label": "N2_8i"
-        },
-        {
-            "Comment": "Ipsilateral inferior mediastinal node S9",
-            "Label": "N2_9"
-        },
-        {
-            "Comment": "Scalene or supraclavicular lymph nodes",
-            "Label": "N3_1 "
-        },
-        {
-            "Comment": "Contralateral superior mediastinal node S2",
-            "Label": "N3_2c"
-        },
-        {
-            "Comment": "Contralateral superior mediastinal node S4",
-            "Label": "N3_4c"
-        },
-        {
-            "Comment": "Subaortic node counted as contralateral (right sided primary tumor)",
-            "Label": "N3_5c"
-        },
-        {
-            "Comment": "Contralateral inferior mediastinal node S8",
-            "Label": "N3_8c"
-        },
-        {
-            "Comment": "Contralateral inferior mediastinal node S9",
-            "Label": "N3_9c"
-        },
-        {
-            "Comment": "Contralateral hilar node",
-            "Label": "N3_10-11c"
-        },
-        {
-            "Comment": "Contralateral peripheral node",
-            "Label": "N3_12-15c"
-        },
-        {
-            "Comment": "Lymph node involvement from another tumor",
-            "Label": "N_other"
-        },
-        {
-            "Comment": "lymph nodes that are active but benign",
-            "Label": "N_inflammation"
-        }
-    ],
     "mets_labels": [
         {
-            "Comment": "Separate tumor nodule within a contralateral lobe ",
-            "Label": "M1a_contralat"
+            "Label": "M1a_contralat",
+            "Comment": "Separate tumor nodule within a contralateral lobe "
         },
         {
-            "Comment": "Tumor with pleural nodules",
-            "Label": "M1a_pleura"
+            "Label": "M1a_pleura",
+            "Comment": "Tumor with pleural nodules"
         },
         {
-            "Comment": "Adrenal",
-            "Label": "M1b_adrenal"
+            "Label": "M1b_adrenal",
+            "Comment": "Adrenal"
         },
         {
-            "Comment": "Brain",
-            "Label": "M1b_brain"
+            "Label": "M1b_brain",
+            "Comment": "Brain"
         },
         {
-            "Comment": "Liver",
-            "Label": "M1b_liver"
+            "Label": "M1b_liver",
+            "Comment": "Liver"
         },
         {
-            "Comment": "Bone",
-            "Label": "M1b_bone"
+            "Label": "M1b_bone",
+            "Comment": "Bone"
         },
         {
-            "Comment": "Extrathoracic lymph node",
-            "Label": "M1b_node"
+            "Label": "M1b_node",
+            "Comment": "Extrathoracic lymph node"
         },
         {
-            "Comment": "Other",
-            "Label": "M1b_other"
+            "Label": "M1b_other",
+            "Comment": "Other"
         }
     ]
 }
