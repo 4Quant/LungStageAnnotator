@@ -18,6 +18,8 @@ This panel shows the different scans which are acceptable as part of the PET/CT 
 # Slice Viewer
 
 - Once a patient has been loaded change to the 'Slice Viewer' panel browse the images.
+- Keyboard Shortcuts
+ - _Shift+N_ for showing the slice number in all planes 
 - Mouse Operation  
  - holding left mouse and moving vertical and horizontal will change window and level
  - holding down the shift key while moving the mouse in slice views will scroll all slice viewers to that RAS coordinate
@@ -32,9 +34,8 @@ This panel shows the different scans which are acceptable as part of the PET/CT 
 
 While the primary annotations are done in the 'Slice Viewer' the information for the annotations can be seen in the segmentation panel. The tool creates a new segmentation group at the beginning after loading each patient. This can have unlimited numbers of individual segments are labels added to it.
 
-In the slice viewer there are a few shortcuts which have been setup to ease operation and keep the labeling consistent.
+In the slice viewer there are a few shortcuts which have been setup to ease operation and keep the labeling consistent. The tools open in another window and are the same (currently) as the 3D Slicer [SegmentEditor](https://www.slicer.org/wiki/Documentation/4.6/Modules/SegmentEditor#Effects), currently the focus is on using the 3D sphere brush but other quicker tools (optimized for 2D slices) are available.
 
-The tool has been setup with Shift+(T, M, or N) shortcuts to annotate regions. The default tool is the 3D sphere paint brush with a very small radius of 8 pixels.
 
 # Segmentations
 
