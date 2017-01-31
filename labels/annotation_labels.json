@@ -151,14 +151,14 @@
             "T3: Tumor >7 cm or any of the following features: direct invasion of the chest wall (including the superior sulcus), diaphragm, phrenic nerve, mediastinal pleura, or parietal pericardium; involvement of the main bronchus <2 cm distal to the carina (without involvement of the carina); associated atelectasis or obstructive pneumonitis of the entire lung; or a tumor nodule within the same lobe as that of the primary tumor",
             "T4: Tumor of any size with invasion of the mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina or a separate tumor nodule within an ipsilateral lobe"
         ],
-        "metsList": [
+        "nodeList": [
             "Nx: Regional lymph nodes cannot be assessed",
             "N0: No regional lymph node metastasis",
             "N1: Metastasis in ipsilateral peribronchial or ipsilateral hilar and intrapulmonary lymph nodes, including direct extension",
             "N2: Metastasis in ipsilateral mediastinal or subcarinal lymph nodes",
             "N3: Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral, contralateral scalene, or supraclavicular lymph nodes"
         ],
-        "nodeList": [
+        "metsList": [
             "Mx: Distant metastasis cannot be assessed",
             "M0: No distant metastasis",
             "M1: Distant metastasis",
@@ -172,11 +172,55 @@
         ],
         "inflammationCheck": [
             false,
-            "Pneumonia and reactive lyphm nodes"
+            "Reactive lymph nodes"
+        ],
+        "pneumoniaCheck": [
+            false,
+            "Signs of Pneumonia"
+        ],
+        "lymphangiosisCheck": [
+            false,
+            "Signs of Lymphangiosis"
+        ],
+        "No_malignancy_in_reportCheck": [
+            false,
+            "no malignancy found in the radiology report"
+        ],
+        "Wrong_malignancy_in_reportCheck": [
+            false,
+            "wrong malignancy was identified in the radiology report"
+        ],
+        "Attenuation_Correction_WrongCheck": [
+            false,
+            "A problem with the attenuation correct in PET (making signal appear artifically high or low)"
+        ],
+        "PETCT_Registration_WrongCheck": [
+            false,
+            "Registration between PET and CT images does not match"
         ],
         "Other_Primary_TumorCheck": [
             false,
             "Other primary tumor / cancer present"
+        ],
+        "Other_Tumor_LocationLineEdit": [
+            "",
+            "The location of the other primary tumor"
+        ],
+        "Previous_Lung_Thorax_SurgeryCheck": [
+            false,
+            "Surgery and scar tissue on the lung thorax area"
+        ],
+        "Low_Label_ConfidenceCheck": [
+            false,
+            "Confidence in the labels / marking is very low"
+        ],
+        "Low_Staging_ConfidenceCheck": [
+            false,
+            "Confidence in the staging is very low"
+        ],
+        "Not_RepresentativeCheck": [
+            false,
+            "Case is not representative and should be left out of training"
         ]
     },
     "mets_labels": [
