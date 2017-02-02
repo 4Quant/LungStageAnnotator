@@ -20,6 +20,7 @@ This panel shows the different scans which are acceptable as part of the PET/CT 
 - Once a patient has been loaded change to the 'Slice Viewer' panel browse the images.
 - Keyboard Shortcuts
  - _Shift+N_ for showing the slice number in all planes 
+ - _Shift+J_ for jumping to and centering on the currently highlighted lesion 
 - Mouse Operation  
  - holding left mouse and moving vertical and horizontal will change window and level
  - holding down the shift key while moving the mouse in slice views will scroll all slice viewers to that RAS coordinate
